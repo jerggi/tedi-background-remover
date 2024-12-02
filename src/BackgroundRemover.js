@@ -1,4 +1,4 @@
-import jsfeat, {matrix_t as Matrix} from 'jsfeat' // eslint-disable-line camelcase
+import jsfeat from 'jsfeat' // eslint-disable-line camelcase
 import stackblur from 'stackblur'
 
 class BackgroundRemover {
@@ -162,7 +162,7 @@ class BackgroundRemover {
     }
 
     createMatrix (data) {
-        const matrix = new Matrix(this.width, this.height, jsfeat.U8C1_t)
+        const matrix = new jsfeat.matrix_t(this.width, this.height, jsfeat.U8C1_t)
 
         for (let i = 0, l = data.length; i < l; i++) {
             matrix[i] = data[i]

@@ -1,0 +1,15 @@
+{
+  "name": "tedi-background-remover",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "jsfeat": "0.0.8",
+    "stackblur": "1.0.0"
+  }
+}

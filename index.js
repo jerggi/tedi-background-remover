@@ -3,8 +3,8 @@ import path from 'path'
 import {loadImageAsImageData, saveImageDataToFile, isImageFile} from './src/image.js'
 import removeBackground from './src/BackgroundRemover.js'
 
-const DEFAULT_INPUT_FOLDER = './images'
-const DEFAULT_OUTPUT_FOLDER = './images/bg-removed-output'
+const DEFAULT_INPUT_FOLDER = './input'
+const DEFAULT_OUTPUT_FOLDER = './output'
 
 const INITIAL_REMOVE_BACKGROUND = {
     threshold: 25,
